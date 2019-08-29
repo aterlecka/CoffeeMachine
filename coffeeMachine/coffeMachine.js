@@ -211,9 +211,9 @@ function take() {
 
 function remaining() {
     console.log("The coffee machine has:");
-    console.log(contentsOfTheCoffeeMachine.water + " of water");
-    console.log(contentsOfTheCoffeeMachine.milk + " of milk");
-    console.log(contentsOfTheCoffeeMachine.beans + " of coffee beans");
+    console.log(contentsOfTheCoffeeMachine.water + "g of water");
+    console.log(contentsOfTheCoffeeMachine.milk + "g of milk");
+    console.log(contentsOfTheCoffeeMachine.beans + "g of coffee beans");
     console.log(contentsOfTheCoffeeMachine.cups + " of cups");
     console.log(contentsOfTheCoffeeMachine.money + " of money");
     chooseAction();
